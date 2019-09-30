@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background: linear-gradient(90deg, rgba(0, 10, 0, 0), rgba(0, 10, 0, 10)),
+    url("../assets/1.jpg") no-repeat center fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+#firstPart {
+  display: table;
+  height: 100vh;
+}
+
+#innerFirstPart {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+  color: #fafafa;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* ******   textColorCss  ********* */
+
+.greenText {
+  color: #2ecc71;
+}
+/* ******   textColorCss  end********* */
+
+/* *********** form css********** */
+.myCard {
+  display: table;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.myCard form {
+  padding-left: 14%;
+  padding-right: 14%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table-cell {
+  display: table-cell;
+  width: 100%;
+}
+
+.col-sm-6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* *input css */
+
+input {
+  padding: 10px !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: #bdc3c7 !important;
+  border-radius: 6px !important;
+  font-size: 19px !important;
+  color: #fafafa !important;
+}
+
+.input-group-text {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  font-size: 19px !important;
+  padding: 10px !important;
+  border-radius: 6px !important;
+}
+
+/* *myBtn css* */
+
+.myBtn {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 10px solid rgba(0, 0, 0, 0.6);
+  width: auto;
+  outline: none;
+}
+
+.submitBtn {
+  color: #fff;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 2px 1px #2ecc71;
+}
+
+.submitBtn:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 2px 1px #4cb69f;
+  transition: ease-in 0.2s;
+}
+
+.resetBtn {
+  color: #fff;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 2px 1px #ea2027;
+  outline-color: #ea2027 !important;
+}
+
+.resetBtn:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 2px 1px #ea2027;
+}
+
+.forgotPasswordText {
+  color: #f0f0f0;
+}
+
+.indexBottom {
+  margin-top: 0%;
+  color: #fff;
+  width: 100%;
+  z-index: 999;
+}
+
+.worngInformation {
+  background: rgba(200, 0, 0, 0.4);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fafafa;
+  box-shadow: 0px 0px 2px 1px #4cb69f;
+}
